@@ -18,7 +18,7 @@ func TestSub(t *testing.T) {
 	}
 }
 
-func TestSub(t *testing.T) {
+func TestTimes(t *testing.T) {
 
 	total := times(3, 3)
 	if total != 9 {
@@ -26,7 +26,7 @@ func TestSub(t *testing.T) {
 	}
 }
 
-func TestSub(t *testing.T) {
+func TestDiv(t *testing.T) {
 
 	total := div(3, 3)
 	if total != 1 {
