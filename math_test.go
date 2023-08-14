@@ -17,3 +17,19 @@ func TestSub(t *testing.T) {
 		t.Error("Resultado é errado, valor esperado era ")
 	}
 }
+
+func TestSub(t *testing.T) {
+
+	total := times(3, 3)
+	if total != 9 {
+		t.Error("Resultado é errado, valor esperado era ")
+	}
+}
+
+func TestSub(t *testing.T) {
+
+	total := div(3, 3)
+	if total != 1 {
+		t.Error("Resultado é errado, valor esperado era ")
+	}
+}
