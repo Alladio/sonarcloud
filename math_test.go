@@ -13,7 +13,7 @@ func TestSoma(t *testing.T) {
 func TestSub(t *testing.T) {
 
 	total := sub(3, 3)
-	if total != 1 {
+	if total != 0 {
 		t.Error("Resultado é errado, valor esperado era ")
 	}
 }
