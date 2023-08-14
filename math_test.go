@@ -17,3 +17,11 @@ func TestSub(t *testing.T) {
 		t.Error("Resultado é errado, valor esperado era ")
 	}
 }
+
+func TestPrint(t *testing.T) {
+
+	total := main()
+	if total != "" {
+		t.Error("Resultado é errado, valor esperado era ")
+	}
+}
